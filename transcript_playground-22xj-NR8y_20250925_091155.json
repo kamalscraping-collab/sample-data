@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "GR_ad8d2a461fc5",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Hello, how can I help you today?"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_13ecd51e0dcc",
+      "type": "function_call",
+      "call_id": "function-call-18124021183837676163",
+      "arguments": "{\"location\": \"Kampala, Uganda\"}",
+      "name": "lookup_weather"
+    },
+    {
+      "id": "GI_14a70e7c2d20",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Haide, can you please tell me the weather in compiler Uganda"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_000f739d4414",
+      "type": "function_call_output",
+      "name": "lookup_weather",
+      "call_id": "function-call-18124021183837676163",
+      "output": "{'weather': 'sunny', 'temperature_f': 70}",
+      "is_error": false
+    },
+    {
+      "id": "GR_95c91db6b975",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "The weather in Kampala, Uganda is sunny with a temperature of 70 degrees Fahrenheit."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_c8cc9177073f",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "what can you please tell me what are the best things to do in compiler you're"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_792c5f6fbc89",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "While I can tell you the weather, I'm not able to provide information on the best things to do in a specific location. Is there anything else I can help you with?"
+      ],
+      "interrupted": false
+    }
+  ]
+}
